@@ -1,10 +1,9 @@
 front-matter-extractor
 ======================
-
 this code:
 
-var FrontMatterExtractor = require("front-matter-extractor");
-var extractor = new FrontMatterExtractor(input);
+    var FrontMatterExtractor = require("front-matter-extractor");
+    var extractor = new FrontMatterExtractor(input);
 
 where `input` is a string containing:
 
