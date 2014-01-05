@@ -1,7 +1,7 @@
 {
   "name": "front-matter-extractor",
   "version": "0.0.0",
-  "description": "Parse front-matter from content",
+  "description": "Separate front-matter from content",
   "main": "main.js",
   "author": "Lloyd Brookes",
   "dependencies": {
