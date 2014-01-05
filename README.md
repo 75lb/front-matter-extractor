@@ -2,9 +2,10 @@ front-matter-extractor
 ======================
 this code:
 
-    var FrontMatterExtractor = require("front-matter-extractor");
-    var extractor = new FrontMatterExtractor(input);
-
+```js
+var FrontMatterExtractor = require("front-matter-extractor");
+var extractor = new FrontMatterExtractor(input);
+```
 where `input` is a string containing:
 
     ---
@@ -18,11 +19,13 @@ where `input` is a string containing:
 
 sets `extractor` to the following object:
 
-    {
-        frontMatter: {
-            title: "something",
-            date: Mon Oct 20 2013 00:00:00 GMT+0000 (GMT),
-            words: [ 'this', 'that' ]
-        },
-        remainder: "blah blah blah"
-    }
+```js
+{
+    frontMatter: {
+        title: "something",
+        date: Mon Oct 20 2013 00:00:00 GMT+0000 (GMT),
+        words: [ 'this', 'that' ]
+    },
+    remainder: "blah blah blah"
+}
+```
