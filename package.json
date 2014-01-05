@@ -1,0 +1,10 @@
+{
+  "name": "front-matter-extractor",
+  "version": "0.0.0",
+  "description": "Parse front-matter from content",
+  "main": "main.js",
+  "author": "Lloyd Brookes",
+  "dependencies": {
+    "js-yaml": "~3.0.1"
+  }
+}
