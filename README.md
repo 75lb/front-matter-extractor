@@ -4,7 +4,7 @@ this code:
 
 ```js
 var FrontMatterExtractor = require("front-matter-extractor");
-var extractor = new FrontMatterExtractor(input);
+var extracted = new FrontMatterExtractor(input);
 ```
 where `input` is a string containing:
 
@@ -17,7 +17,7 @@ where `input` is a string containing:
     ---
     blah blah blah
 
-sets `extractor` to the following object:
+sets `extracted` to the following object:
 
 ```js
 {
@@ -26,6 +26,6 @@ sets `extractor` to the following object:
         date: Mon Oct 20 2013 00:00:00 GMT+0000 (GMT),
         words: [ 'this', 'that' ]
     },
-    remainder: "blah blah blah"
+    content: "blah blah blah"
 }
 ```

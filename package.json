@@ -1,6 +1,7 @@
 {
   "name": "front-matter-extractor",
   "version": "0.0.0",
+  "repository": "https://github.com/75lb/front-matter-extractor",
   "description": "Separate front-matter from content",
   "main": "main.js",
   "author": "Lloyd Brookes",
