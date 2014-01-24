@@ -1,3 +1,7 @@
+[![NPM version](https://badge.fury.io/js/front-matter-extractor.png)](http://badge.fury.io/js/front-matter-extractor)
+[![Dependency Status](https://david-dm.org/75lb/front-matter-extractor.png)](https://david-dm.org/75lb/front-matter-extractor)
+![Analytics](https://ga-beacon.appspot.com/UA-27725889-18/front-matter-extractor/README.md?pixel)
+
 front-matter-extractor
 ======================
 install: 
@@ -35,6 +39,3 @@ sets `extracted` to the following object:
 }
 ```
 [![NPM](https://nodei.co/npm/front-matter-extractor.png?downloads=true&stars=true)](https://nodei.co/npm/front-matter-extractor/)
-
-[![Dependency Status](https://david-dm.org/75lb/front-matter-extractor.png)](https://david-dm.org/75lb/front-matter-extractor)
-![Analytics](https://ga-beacon.appspot.com/UA-27725889-18/front-matter-extractor/README.md?pixel)
