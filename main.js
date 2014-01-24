@@ -2,7 +2,7 @@ var yaml = require("js-yaml");
 
 module.exports = function FrontMatterExtractor(input){
     var matter = /^---$([\s\S]*)^---$/m;
-    this.frontMatter = null;
+    this.frontMatter = {};
     this.content = input;
     if (input && typeof input === "string"){
         var matches = input.match(matter);
