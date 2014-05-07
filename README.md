@@ -13,8 +13,8 @@ $ npm install -g front-matter-extractor
 this code:
 
 ```js
-var FrontMatterExtractor = require("front-matter-extractor");
-var extracted = new FrontMatterExtractor(input);
+var fme = require("front-matter-extractor");
+var extracted = fme.extract(input);
 ```
 where `input` is a string containing:
 
@@ -31,11 +31,9 @@ sets `extracted` to the following object:
 
 ```js
 {
-    frontMatter: {
-        title: "something",
-        date: Mon Oct 20 2013 00:00:00 GMT+0000 (GMT),
-        words: [ 'this', 'that' ]
-    },
-    content: "blah blah blah"
+    title: "something",
+    date: Mon Oct 20 2013 00:00:00 GMT+0000 (GMT),
+    words: [ 'this', 'that' ],
+    _remainder: "blah blah blah"
 }
 ```
