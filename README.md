@@ -1,4 +1,5 @@
-[![NPM version](https://badge.fury.io/js/front-matter-extractor.png)](http://badge.fury.io/js/front-matter-extractor)
+[![view on npm](http://img.shields.io/npm/v/front-matter-extractor.svg)](https://www.npmjs.org/package/front-matter-extractor)
+![npm module downloads per month](http://img.shields.io/npm/dm/front-matter-extractor.svg)
 [![Dependency Status](https://david-dm.org/75lb/front-matter-extractor.png)](https://david-dm.org/75lb/front-matter-extractor)
 ![Analytics](https://ga-beacon.appspot.com/UA-27725889-18/front-matter-extractor/README.md?pixel)
 
@@ -38,4 +39,3 @@ sets `extracted` to the following object:
     content: "blah blah blah"
 }
 ```
-[![NPM](https://nodei.co/npm/front-matter-extractor.png?downloads=true&stars=true)](https://nodei.co/npm/front-matter-extractor/)
