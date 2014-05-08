@@ -6,6 +6,7 @@
   "main": "lib/front-matter-extractor.js",
   "author": "Lloyd Brookes",
   "dependencies": {
-    "js-yaml": "~3.0.1"
+    "js-yaml": "~3.0.1",
+    "wodge": "~0.6.0"
   }
 }
