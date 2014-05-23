@@ -1,6 +1,6 @@
 {
   "name": "front-matter-extractor",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "repository": "https://github.com/75lb/front-matter-extractor",
   "description": "Separate front-matter from content",
   "main": "lib/front-matter-extractor.js",
